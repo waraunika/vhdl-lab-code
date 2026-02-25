@@ -1,0 +1,7 @@
+v 4
+file . "q1_tb.vhd" "63e55810ae998424e670a33cb55835c99700987c" "20260225173544.844":
+  entity q1_tb at 1( 0) + 0 on 13;
+  architecture sim of q1_tb at 8( 99) + 0 on 14;
+file . "q1.vhd" "4ac1929be835212aa99ff094fd73307a268224b8" "20260225173539.466":
+  entity logic_circuit at 1( 0) + 0 on 11;
+  architecture behavioral of logic_circuit at 11( 172) + 0 on 12;
