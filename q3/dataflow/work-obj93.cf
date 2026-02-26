@@ -1,0 +1,7 @@
+v 4
+file . "majority_2_of_3.vhd" "00ca889f5cf09e6cda12539ddd1aa75c3e046427" "20260226050150.383":
+  entity majority_2_of_3 at 1( 0) + 0 on 11;
+  architecture dataflow of majority_2_of_3 at 11( 150) + 0 on 12;
+file . "majority_2_of_3_tb.vhd" "afbb27f1fbe5ca1d96390f2ef0f2ed6b6eb1fc44" "20260226050710.390":
+  entity majority_2_of_3_tb at 1( 0) + 0 on 15;
+  architecture sim of majority_2_of_3_tb at 8( 112) + 0 on 16;

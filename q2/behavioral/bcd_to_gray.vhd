@@ -14,7 +14,7 @@ begin
   process(a, b, c, d)
     variable bcd_val : integer;
   begin
-    bcd_val := to_integer(unsigned'(a & b & c & d));
+    bcd_val := to_integer(unsigned(a & b & c & d));
     
     -- default outputs (don't cares for invalid BCD)
     w <= '-';

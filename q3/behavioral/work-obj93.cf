@@ -1,0 +1,7 @@
+v 4
+file . "majority_2_of_3_tb.vhd" "82c8220b5d4076e3642ddab835519f622c56d622" "20260226052519.680":
+  entity majority_2_of_3_tb at 1( 0) + 0 on 13;
+  architecture sim of majority_2_of_3_tb at 8( 112) + 0 on 14;
+file . "majority_2_of_3.vhd" "c87a27709654fd99e491ae9bba961326d1d8c0cb" "20260226052517.096":
+  entity majority_2_of_3 at 1( 0) + 0 on 11;
+  architecture behavioral of majority_2_of_3 at 12( 176) + 0 on 12;

@@ -1,0 +1,10 @@
+v 4
+file . "majority_2_of_3_tb.vhd" "3a71e0f8243e33e32e56ebaeb5a35326a7ede94d" "20260226054545.648":
+  entity majority_2_of_3_tb at 1( 0) + 0 on 33;
+  architecture sim of majority_2_of_3_tb at 8( 112) + 0 on 34;
+file . "nor_gate.vhd" "29331c00fec8e0839a5a70b0e119daf8ceecd603" "20260226054448.842":
+  entity nor_gate at 1( 0) + 0 on 23;
+  architecture behavioral of nor_gate at 11( 137) + 0 on 24;
+file . "majority_2_of_3.vhd" "ec336df70163612fa08a9d7dc722c7bebad1a23e" "20260226054503.674":
+  entity majority_2_of_3 at 1( 0) + 0 on 25;
+  architecture structural_nor of majority_2_of_3 at 11( 150) + 0 on 26;

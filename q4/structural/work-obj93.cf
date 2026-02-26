@@ -1,0 +1,10 @@
+v 4
+file . "sop_pos_function.vhd" "4ea3858b9b812773a4ec73e6d8ce492163a17c7f" "20260226121322.827":
+  entity sop_pos_function at 1( 0) + 0 on 39;
+  architecture structural_nor of sop_pos_function at 11( 166) + 0 on 40;
+file . "nor_gate.vhd" "29331c00fec8e0839a5a70b0e119daf8ceecd603" "20260226120434.853":
+  entity nor_gate at 1( 0) + 0 on 37;
+  architecture behavioral of nor_gate at 11( 137) + 0 on 38;
+file . "sop_pos_function_tb.vhd" "bb8b866b7f3e205840d1153140e4dfdac7ebadf5" "20260226121328.202":
+  entity sop_pos_function_tb at 1( 0) + 0 on 41;
+  architecture sim of sop_pos_function_tb at 8( 113) + 0 on 42;
