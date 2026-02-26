@@ -1,0 +1,10 @@
+v 4
+file . "alu_tb.vhd" "2c037c949c40bbde8a6d4acde5576f002966d7f5" "20260226144459.331":
+  entity alu_tb at 1( 0) + 0 on 15;
+  architecture behavioral of alu_tb at 8( 107) + 0 on 16;
+file . "full_adder.vhd" "59338611bdbec0888075bab3dc9de0dbdecbac6b" "20260226144450.428":
+  entity full_adder at 1( 0) + 0 on 11;
+  architecture behavioral of full_adder at 11( 152) + 0 on 12;
+file . "alu.vhd" "2b6b467b083dbd25b6bc01332f110b21b29aa22d" "20260226144456.660":
+  entity alu at 1( 0) + 0 on 13;
+  architecture structural of alu at 15( 330) + 0 on 14;
