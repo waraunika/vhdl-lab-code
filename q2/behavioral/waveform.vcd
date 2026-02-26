@@ -1,0 +1,191 @@
+$date
+  Thu Feb 26 08:37:01 2026
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module bcd_to_gray_tb $end
+$var reg 1 ! a $end
+$var reg 1 " b $end
+$var reg 1 # c $end
+$var reg 1 $ d $end
+$var reg 1 % w $end
+$var reg 1 & x $end
+$var reg 1 ' y $end
+$var reg 1 ( z $end
+$var reg 4 ) test_vector[3:0] $end
+$scope module uut $end
+$var reg 1 * a $end
+$var reg 1 + b $end
+$var reg 1 , c $end
+$var reg 1 - d $end
+$var reg 1 . w $end
+$var reg 1 / x $end
+$var reg 1 0 y $end
+$var reg 1 1 z $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+b0000 )
+0*
+0+
+0,
+0-
+0.
+0/
+00
+01
+#10000000
+1$
+1(
+b0001 )
+1-
+0.
+0/
+00
+11
+#20000000
+1#
+0$
+1'
+b0010 )
+1,
+0-
+0.
+0/
+10
+11
+#30000000
+1$
+0(
+b0011 )
+1-
+0.
+0/
+10
+01
+#40000000
+1"
+0#
+0$
+1&
+b0100 )
+1+
+0,
+0-
+0.
+1/
+10
+01
+#50000000
+1$
+1(
+b0101 )
+1-
+0.
+1/
+10
+11
+#60000000
+1#
+0$
+0'
+b0110 )
+1,
+0-
+0.
+1/
+00
+11
+#70000000
+1$
+0(
+b0111 )
+1-
+0.
+1/
+00
+01
+#80000000
+1!
+0"
+0#
+0$
+1%
+b1000 )
+1*
+0+
+0,
+0-
+1.
+1/
+00
+01
+#90000000
+1$
+1(
+b1001 )
+1-
+1.
+1/
+00
+11
+#100000000
+1#
+0$
+-%
+-&
+-'
+-(
+b1010 )
+1,
+0-
+-.
+-/
+-0
+-1
+#110000000
+1$
+b1011 )
+1-
+#120000000
+1"
+0#
+0$
+b1100 )
+1+
+0,
+0-
+#130000000
+1$
+b1101 )
+1-
+#140000000
+1#
+0$
+b1110 )
+1,
+0-
+#150000000
+1$
+b1111 )
+1-
+#160000000

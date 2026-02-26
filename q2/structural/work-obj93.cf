@@ -1,0 +1,10 @@
+v 4
+file . "bcd_to_gray.vhd" "9029167027c99575f2c7942fe60afa271ecef76d" "20260226031219.966":
+  entity bcd_to_gray at 1( 0) + 0 on 19;
+  architecture structural of bcd_to_gray at 11( 155) + 0 on 20;
+file . "nor_gate.vhd" "b5613b1bf62d6a3d1f907352091c0617ae80ab10" "20260226031219.922":
+  entity nor_gate at 1( 0) + 0 on 17;
+  architecture behavioral of nor_gate at 11( 141) + 0 on 18;
+file . "bcd_to_gray_tb.vhd" "fb7c78230bc7b079e8d99a83f917c8662b4f8e31" "20260226031220.035":
+  entity bcd_to_gray_tb at 1( 0) + 0 on 21;
+  architecture sim of bcd_to_gray_tb at 8( 108) + 0 on 22;

@@ -1,0 +1,7 @@
+v 4
+file . "q2_tb.vhd" "f365147a7db513124d2d29ce89c664857bbfe6d1" "20260226024517.249":
+  entity bcd_to_gray_tb at 1( 0) + 0 on 25;
+  architecture sim of bcd_to_gray_tb at 8( 108) + 0 on 26;
+file . "q2.vhd" "08a3cf3868ea78ed75e99369ebb72a91ab76e101" "20260226024450.467":
+  entity bcd_to_gray at 1( 0) + 0 on 23;
+  architecture dataflow of bcd_to_gray at 11( 155) + 0 on 24;

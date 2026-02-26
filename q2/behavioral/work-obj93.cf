@@ -1,0 +1,7 @@
+v 4
+file . "bcd_to_gray_tb.vhd" "adcfc2986732930859a943ee8bd7a66a7bbd91c1" "20260226025134.136":
+  entity bcd_to_gray_tb at 1( 0) + 0 on 13;
+  architecture sim of bcd_to_gray_tb at 8( 108) + 0 on 14;
+file . "bcd_to_gray.vhd" "4cb5bbccf3b602a840242ce1b22a244bcd471726" "20260226025129.524":
+  entity bcd_to_gray at 1( 0) + 0 on 11;
+  architecture behavioral of bcd_to_gray at 12( 182) + 0 on 12;

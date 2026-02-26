@@ -1,0 +1,556 @@
+$date
+  Thu Feb 26 08:57:20 2026
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module bcd_to_gray_tb $end
+$var reg 1 ! a $end
+$var reg 1 " b $end
+$var reg 1 # c $end
+$var reg 1 $ d $end
+$var reg 1 % w $end
+$var reg 1 & x $end
+$var reg 1 ' y $end
+$var reg 1 ( z $end
+$var reg 4 ) test_vector[3:0] $end
+$scope module uut $end
+$var reg 1 * a $end
+$var reg 1 + b $end
+$var reg 1 , c $end
+$var reg 1 - d $end
+$var reg 1 . w $end
+$var reg 1 / x $end
+$var reg 1 0 y $end
+$var reg 1 1 z $end
+$var reg 1 2 not_ab_1 $end
+$var reg 1 3 not_a_ab_1 $end
+$var reg 1 4 not_b_ab_1 $end
+$var reg 1 5 xor_ab $end
+$var reg 1 6 not_ab_2 $end
+$var reg 1 7 not_a_ab_2 $end
+$var reg 1 8 not_b_ab_2 $end
+$var reg 1 9 xor_bc $end
+$var reg 1 : not_ab_3 $end
+$var reg 1 ; not_a_ab_3 $end
+$var reg 1 < not_b_ab_3 $end
+$var reg 1 = xor_cd $end
+$scope module nor1 $end
+$var reg 1 > a $end
+$var reg 1 ? b $end
+$var reg 1 @ y $end
+$upscope $end
+$scope module nor2 $end
+$var reg 1 A a $end
+$var reg 1 B b $end
+$var reg 1 C y $end
+$upscope $end
+$scope module nor3 $end
+$var reg 1 D a $end
+$var reg 1 E b $end
+$var reg 1 F y $end
+$upscope $end
+$scope module nor4 $end
+$var reg 1 G a $end
+$var reg 1 H b $end
+$var reg 1 I y $end
+$upscope $end
+$scope module nor5 $end
+$var reg 1 J a $end
+$var reg 1 K b $end
+$var reg 1 L y $end
+$upscope $end
+$scope module nor6 $end
+$var reg 1 M a $end
+$var reg 1 N b $end
+$var reg 1 O y $end
+$upscope $end
+$scope module nor7 $end
+$var reg 1 P a $end
+$var reg 1 Q b $end
+$var reg 1 R y $end
+$upscope $end
+$scope module nor8 $end
+$var reg 1 S a $end
+$var reg 1 T b $end
+$var reg 1 U y $end
+$upscope $end
+$scope module nor9 $end
+$var reg 1 V a $end
+$var reg 1 W b $end
+$var reg 1 X y $end
+$upscope $end
+$scope module nor10 $end
+$var reg 1 Y a $end
+$var reg 1 Z b $end
+$var reg 1 [ y $end
+$upscope $end
+$scope module nor11 $end
+$var reg 1 \ a $end
+$var reg 1 ] b $end
+$var reg 1 ^ y $end
+$upscope $end
+$scope module nor12 $end
+$var reg 1 _ a $end
+$var reg 1 ` b $end
+$var reg 1 a y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+0#
+0$
+0%
+1&
+1'
+1(
+b0000 )
+0*
+0+
+0,
+0-
+0.
+1/
+10
+11
+12
+03
+04
+15
+16
+07
+08
+19
+1:
+0;
+0<
+1=
+0>
+0?
+1@
+0A
+1B
+0C
+0D
+1E
+0F
+0G
+0H
+1I
+0J
+0K
+1L
+0M
+1N
+0O
+0P
+1Q
+0R
+0S
+0T
+1U
+0V
+0W
+1X
+0Y
+1Z
+0[
+0\
+1]
+0^
+0_
+0`
+1a
+#10000000
+1$
+0(
+b0001 )
+1-
+01
+0:
+1;
+0=
+1W
+0X
+0Z
+1[
+1\
+0]
+1_
+0a
+#20000000
+1#
+0$
+0'
+b0010 )
+1,
+0-
+00
+06
+17
+09
+0;
+1<
+1K
+0L
+0N
+1O
+1P
+0Q
+1S
+0U
+1V
+0W
+1Y
+0[
+0\
+1^
+0_
+1`
+#30000000
+1$
+1(
+b0011 )
+1-
+11
+0<
+1=
+1W
+1\
+0^
+0`
+1a
+#40000000
+1"
+0#
+0$
+0&
+1(
+b0100 )
+1+
+0,
+0-
+0/
+11
+02
+13
+05
+07
+18
+1:
+0;
+0<
+1=
+1?
+0@
+0B
+1C
+1D
+0E
+1G
+0I
+1J
+0K
+1M
+0O
+0P
+1R
+0S
+1T
+0V
+0W
+1X
+0Y
+1Z
+0[
+0\
+1]
+0^
+0_
+0`
+1a
+#50000000
+1$
+0(
+b0101 )
+1-
+01
+0:
+1;
+0=
+1W
+0X
+0Z
+1[
+1\
+0]
+1_
+0a
+#60000000
+1#
+0$
+1'
+b0110 )
+1,
+0-
+10
+08
+19
+0;
+1<
+1K
+1P
+0R
+0T
+1U
+1V
+0W
+1Y
+0[
+0\
+1^
+0_
+1`
+#70000000
+1$
+1(
+b0111 )
+1-
+11
+0<
+1=
+1W
+1\
+0^
+0`
+1a
+#80000000
+1!
+0"
+0#
+0$
+1%
+1'
+1(
+b1000 )
+1*
+0+
+0,
+0-
+1.
+10
+11
+03
+14
+16
+07
+08
+19
+1:
+0;
+0<
+1=
+1>
+0?
+1A
+0C
+0D
+1F
+0G
+1H
+0J
+0K
+1L
+0M
+1N
+0O
+0P
+1Q
+0R
+0S
+0T
+1U
+0V
+0W
+1X
+0Y
+1Z
+0[
+0\
+1]
+0^
+0_
+0`
+1a
+#90000000
+1$
+0(
+b1001 )
+1-
+01
+0:
+1;
+0=
+1W
+0X
+0Z
+1[
+1\
+0]
+1_
+0a
+#100000000
+1#
+0$
+0'
+b1010 )
+1,
+0-
+00
+06
+17
+09
+0;
+1<
+1K
+0L
+0N
+1O
+1P
+0Q
+1S
+0U
+1V
+0W
+1Y
+0[
+0\
+1^
+0_
+1`
+#110000000
+1$
+1(
+b1011 )
+1-
+11
+0<
+1=
+1W
+1\
+0^
+0`
+1a
+#120000000
+1"
+0#
+0$
+1&
+1(
+b1100 )
+1+
+0,
+0-
+1/
+11
+04
+15
+07
+18
+1:
+0;
+0<
+1=
+1?
+1D
+0F
+0H
+1I
+1J
+0K
+1M
+0O
+0P
+1R
+0S
+1T
+0V
+0W
+1X
+0Y
+1Z
+0[
+0\
+1]
+0^
+0_
+0`
+1a
+#130000000
+1$
+0(
+b1101 )
+1-
+01
+0:
+1;
+0=
+1W
+0X
+0Z
+1[
+1\
+0]
+1_
+0a
+#140000000
+1#
+0$
+1'
+b1110 )
+1,
+0-
+10
+08
+19
+0;
+1<
+1K
+1P
+0R
+0T
+1U
+1V
+0W
+1Y
+0[
+0\
+1^
+0_
+1`
+#150000000
+1$
+1(
+b1111 )
+1-
+11
+0<
+1=
+1W
+1\
+0^
+0`
+1a
+#160000000
