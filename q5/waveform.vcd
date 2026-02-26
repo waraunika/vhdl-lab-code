@@ -1,0 +1,138 @@
+$date
+  Thu Feb 26 18:13:52 2026
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module mux_2to1_tb $end
+$var reg 1 ! x1_tb $end
+$var reg 1 " x2_tb $end
+$var reg 1 # s_tb $end
+$var reg 1 $ y_when_else $end
+$var reg 1 % y_if_then_else $end
+$scope module uut_when_else $end
+$var reg 1 & x1 $end
+$var reg 1 ' x2 $end
+$var reg 1 ( s $end
+$var reg 1 ) y $end
+$upscope $end
+$scope module uut_if_then_else $end
+$var reg 1 * x1 $end
+$var reg 1 + x2 $end
+$var reg 1 , s $end
+$var reg 1 - y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+1"
+0#
+0$
+0%
+0&
+1'
+0(
+0)
+0*
+1+
+0,
+0-
+#10000000
+1!
+0"
+1$
+1%
+1&
+0'
+1)
+1*
+0+
+1-
+#20000000
+0!
+1"
+1#
+0&
+1'
+1(
+0*
+1+
+1,
+#30000000
+1!
+0"
+0$
+0%
+1&
+0'
+0)
+1*
+0+
+0-
+#40000000
+0#
+1$
+1%
+0(
+1)
+0,
+1-
+#50000000
+1#
+0$
+0%
+1(
+0)
+1,
+0-
+#60000000
+0!
+1"
+0#
+0&
+1'
+0(
+0*
+1+
+0,
+#70000000
+1!
+0"
+1$
+1%
+1&
+0'
+1)
+1*
+0+
+1-
+#80000000
+0!
+1"
+1#
+0&
+1'
+1(
+0*
+1+
+1,
+#90000000
+1!
+0"
+0$
+0%
+1&
+0'
+0)
+1*
+0+
+0-
+#100000000
